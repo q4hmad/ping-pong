@@ -4,7 +4,9 @@
 
 #main {
   background-color: grey;
+
 }
 #color2 {
   background-color: green;
+  float: right;
 }
