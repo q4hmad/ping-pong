@@ -4,6 +4,10 @@ var entries = function(entry) {
   for (index = 1; index <= entry; index+=1) {
    if (index % 3 === 0) {
      list.push("ping");
+   } else if (index % 5 === 0) {
+     list.push("pong");
+   }  else if (index % 15 === 0) {
+     list.push("pingpong");
    } else {
     list.push(index);
    }
@@ -18,5 +22,6 @@ $(document).ready(function() {
     var entry = parseInt($("input#entry").val());
     var results = entries(entry);
     console.log(results);
+    $("#result ol").text(results )
   });
 });

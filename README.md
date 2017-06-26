@@ -19,6 +19,12 @@
 
 ## Technologies Used
 
+## Specifications
+  - It can count up to the provided number.
+  - It can deliver "ping" for numbers divisible by 3
+  - It can deliver "pong" for numbers divisible by 5
+  - It can deliver "pingpong" for numbers divisible by 15
+
 _This is written using simple js logic.
 
 
